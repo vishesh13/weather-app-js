@@ -27,6 +27,7 @@ class SearchBoxView extends React.Component {
             }
         }
         this.setState({ city: '' });
+        document.getElementById("INPUT_SEARCH_FIELD").value = '';
     }
 
     render() {
